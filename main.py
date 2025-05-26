@@ -16,7 +16,7 @@ Usage:
 import sys
 from pathlib import Path
 
-from downloader import handle_download_process, initialize_managers
+from src.downloader import handle_download_process, initialize_managers
 from helpers.config import URLS_FILE
 from helpers.file_utils import read_file, write_file
 from helpers.general_utils import clear_terminal
